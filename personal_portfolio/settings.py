@@ -123,8 +123,10 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# PTG appendages: 
-
+# PTG appendages:
 
 INSTALLED_APPS.append('blog')
+INSTALLED_APPS.append('portfolio')
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
